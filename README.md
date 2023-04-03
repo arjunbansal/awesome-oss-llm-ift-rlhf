@@ -1,8 +1,11 @@
 # Awesome Open Source LLM + IFT (+RLHF)
 
-This is a collection of open source implementations of LLMs that are striving to get to OpenAI level of performance
+This is a collection of open source implementations of LLMs with IFT and RLHF that are striving to get to ChatGPT level of performance
 
-Quantized/LoRA models are fine-tuneable on consumer hardware (e.g. RTX4090) whereas the non-quantized models require 8-10 hours on 8xA100 systems (costing \<$100 of compute time).
+* LoRA models are fine-tuneable on consumer hardware (e.g. RTX4090) whereas the non-quantized models require 8-10 hours on 8xA100 systems (costing \<$100 of compute time)
+* Most of these Colab notebooks require a Colab Pro account ($9.99/month) to get Premium GPU access
+* Quantized GPT4All can run on a laptop CPU thanks to [llama.cpp](https://github.com/ggerganov/llama.cpp)
+
 
 | Name | Base model | IFT | IFT data | RLHF | [LoRA](https://arxiv.org/abs/2106.09685) | Quantization | Links|
 |------|------------|-----|----------|:----:|:----:|--------------|------|
@@ -12,6 +15,6 @@ Quantized/LoRA models are fine-tuneable on consumer hardware (e.g. RTX4090) wher
 |[Instruct GPT-J+LoRA](https://twitter.com/aicrumb/status/1638630904569511938)|GPT-J-6B    | ✅  | gpt-3.5| ❌|✅    |❌     | [Colab](https://colab.research.google.com/github/aicrumb/notebook-hosting/blob/main/Instruct_GPT_J_Gradio_Demo.ipynb)<br>[Model](https://huggingface.co/crumb/Instruct-GPT-J)|
 |[Dolly](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html)|GPT-J-6B    | ✅  | Alpaca (davinci-003)| ❌|❌    |❌     | [Model](https://huggingface.co/databricks/dolly-v1-6b)<br>[Github](https://github.com/databrickslabs/dolly)|
 |[Dolly+LoRA](https://twitter.com/Sam_Witteveen/status/1639947728762593280)|GPT-J-6B    | ✅  | Alpaca (davinci-003) Cleaned| ❌|✅    |❌     | [Colab](https://colab.research.google.com/drive/1O1JjyGaC300BgSJoUbru6LuWAzRzEqCz?usp=sharing)|
-|[OpenChatKit](https://www.together.xyz/blog/openchatkit-016)|Eleuther Pythia 7B<br>GPT-NeoXT-20B   | ✅  | [LAION OIG](https://huggingface.co/datasets/laion/OIG)| ✅|❌    |✅     | [Spaces](https://huggingface.co/spaces/togethercomputer/OpenChatKit)<br>[Github](https://github.com/togethercomputer/OpenChatKit)|
+|[OpenChatKit](https://www.together.xyz/blog/openchatkit-016)|Pythia 7B<br>GPT-NeoXT-20B   | ✅  | [LAION OIG](https://huggingface.co/datasets/laion/OIG)| ✅|❌    |✅     | [Spaces](https://huggingface.co/spaces/togethercomputer/OpenChatKit)<br>[Github](https://github.com/togethercomputer/OpenChatKit)|
 |ColossalChat|Llama-7B   | ✅  | | ✅|✅    |✅     | [Demo](https://chat.colossalai.org/)<br>[Github](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat)|
 |[TRL-PEFT](https://huggingface.co/blog/trl-peft)|   | ✅  | | ✅|✅    |✅     |code only, no model |
