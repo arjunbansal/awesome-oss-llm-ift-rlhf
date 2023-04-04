@@ -11,6 +11,7 @@ This is a collection of open source implementations of LLMs with IFT and RLHF th
 | Name | Base model | IFT | IFT data | RLHF | [LoRA](https://arxiv.org/abs/2106.09685) | Quantization | Commercial Use|Links|
 |------|------------|-----|----------|:----:|:----:|--------------|------|------|
 |[Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html)|Llama 7B<br>Llama 13B| ✅ | Alpaca (davinci-003) <br>gpt-4| ❌|❌ |❌|❌| [Alpaca model](https://huggingface.co/chavinlo/alpaca-native)<br>[GPT-4 model](https://huggingface.co/chavinlo/gpt4-x-alpaca)|
+|[Vicuna](https://vicuna.lmsys.org/)|Llama 13B|✅ |ShareGPT|❌|❌ |❌|❌|[Demo](https://chat.lmsys.org/)<br>[Github](https://github.com/lm-sys/FastChat/#vicuna-weights)
 |Alpaca+LORA|Llama 7B    | ✅  | Alpaca (davinci-003) Cleaned| ❌|✅ |❌|❌| [Spaces](https://huggingface.co/spaces/tloen/alpaca-lora)<br>[Github](https://github.com/tloen/alpaca-lora)|
 |[GPT4All](https://s3.amazonaws.com/static.nomic.ai/gpt4all/2023_GPT4All_Technical_Report.pdf)|Llama 7B| ✅  | gpt-3.5| ❌|✅|✅|❌|[Github](https://github.com/nomic-ai/gpt4all)|
 |[Instruct GPT-J+LoRA](https://twitter.com/aicrumb/status/1638630904569511938)|GPT-J-6B | ✅ |Alpaca (davinci-003)| ❌|✅ |❌|❌| [Colab](https://colab.research.google.com/github/aicrumb/notebook-hosting/blob/main/Instruct_GPT_J_Gradio_Demo.ipynb)<br>[Model](https://huggingface.co/crumb/Instruct-GPT-J)|
