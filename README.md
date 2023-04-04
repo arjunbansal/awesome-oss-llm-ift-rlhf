@@ -17,7 +17,7 @@ This is a collection of open source implementations of LLMs with IFT and RLHF th
 |[Instruct GPT-J+LoRA](https://twitter.com/aicrumb/status/1638630904569511938)|GPT-J-6B | ✅ |Alpaca (davinci-003)| ❌|✅ |❌|❌| [Colab](https://colab.research.google.com/github/aicrumb/notebook-hosting/blob/main/Instruct_GPT_J_Gradio_Demo.ipynb)<br>[Model](https://huggingface.co/crumb/Instruct-GPT-J)|
 |[Dolly](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html)|GPT-J-6B | ✅ | Alpaca (davinci-003)| ❌|❌ |❌ |❌ | [Model](https://huggingface.co/databricks/dolly-v1-6b)<br>[Github](https://github.com/databrickslabs/dolly)|
 |[Dolly+LoRA](https://twitter.com/Sam_Witteveen/status/1639947728762593280)|GPT-J-6B | ✅ | Alpaca (davinci-003) Cleaned| ❌|✅ |❌ |❌ | [Colab](https://colab.research.google.com/drive/1O1JjyGaC300BgSJoUbru6LuWAzRzEqCz?usp=sharing)|
-|[OpenChatKit](https://www.together.xyz/blog/openchatkit-016)|Pythia 7B<br>GPT-NeoXT-20B | ✅  | [LAION OIG](https://huggingface.co/datasets/laion/OIG)| ✅|❌|✅ |✅ | [Spaces](https://huggingface.co/spaces/togethercomputer/OpenChatKit)<br>[Github](https://github.com/togethercomputer/OpenChatKit)|
+|[OpenChatKit](https://www.together.xyz/blog/openchatkit-016)|Pythia 7B<br>GPT-NeoXT-20B | ✅  | [LAION OIG](https://huggingface.co/datasets/laion/OIG)| ❌|❌|✅ |✅ | [Spaces](https://huggingface.co/spaces/togethercomputer/OpenChatKit)<br>[Github](https://github.com/togethercomputer/OpenChatKit)|
 |ColossalChat|Llama-7B | ✅  | | ✅|✅  |✅  |❌ | [Demo](https://chat.colossalai.org/)<br>[Github](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat)|
 |[TRL-PEFT](https://huggingface.co/blog/trl-peft)|   | ✅  | | ✅|✅ |✅  ||code only, no model |
 
