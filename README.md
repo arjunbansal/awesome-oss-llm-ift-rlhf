@@ -9,10 +9,10 @@ This is a collection of open source implementations of LLMs with IFT and RLHF th
 ## Models
 
 | Name | Base model | IFT | IFT data | RLHF | [LoRA](https://arxiv.org/abs/2106.09685) | Quantization | Commercial Use|Links|
-|------|------------|-----|----------|:----:|:----:|--------------|------|------|
+|------|------------|:--:|----------|:----:|:----:|:-----:|:------:|------|
 |[Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html)|Llama 7B<br>Llama 13B| ✅ | Alpaca (davinci-003) <br>gpt-4| ❌|❌ |❌|❌| [Alpaca model](https://huggingface.co/chavinlo/alpaca-native)<br>[GPT-4 model](https://huggingface.co/chavinlo/gpt4-x-alpaca)|
 |[Vicuna](https://vicuna.lmsys.org/)|Llama 13B|✅ |ShareGPT|❌|❌ |❌|❌|[Demo](https://chat.lmsys.org/)<br>[Github](https://github.com/lm-sys/FastChat/#vicuna-weights)|
-|[Koala-EasyLM](https://bair.berkeley.edu/blog/2023/04/03/koala/)|Llama 13B | ✅  |Alpaca<br>ShareGPT<br>HC3<br>LAION OIG<br>Anthropic HH<br>WebGPT<br>Summarization |❌|❌ |❌|❌|[Demo](https://chat.lmsys.org/?model=koala-13b)<br>[Github](https://github.com/young-geng/EasyLM)|
+|[Koala<br>EasyLM](https://bair.berkeley.edu/blog/2023/04/03/koala/)|Llama 13B | ✅  |Alpaca<br>ShareGPT<br>HC3<br>LAION OIG<br>Anthropic<br>WebGPT<br>Summaries |❌|❌ |❌|❌|[Demo](https://chat.lmsys.org/?model=koala-13b)<br>[Github](https://github.com/young-geng/EasyLM)|
 |Alpaca+LORA|Llama 7B    | ✅  | Alpaca (davinci-003) Cleaned| ❌|✅ |❌|❌| [Spaces](https://huggingface.co/spaces/tloen/alpaca-lora)<br>[Github](https://github.com/tloen/alpaca-lora)|
 |[Baize](https://arxiv.org/pdf/2304.01196.pdf)|Llama 7B<br>Llama 13B<br>Llama 30B    | ✅  | gpt-3.5-turbo| ❌|✅ |❌|❌| [Spaces](https://huggingface.co/spaces/project-baize/baize-lora-7B)<br>[Github](https://github.com/project-baize/baize)|
 |[GPT4All](https://s3.amazonaws.com/static.nomic.ai/gpt4all/2023_GPT4All_Technical_Report.pdf)|Llama 7B| ✅  | gpt-3.5| ❌|✅|✅|❌|[Github](https://github.com/nomic-ai/gpt4all)|
