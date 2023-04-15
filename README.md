@@ -21,6 +21,7 @@ This is a collection of open source implementations of LLMs with IFT and RLHF th
 |[Dolly+LoRA](https://twitter.com/Sam_Witteveen/status/1639947728762593280)|GPT-J-6B | ✅ | Alpaca (davinci-003) Cleaned| ❌|✅ |❌ |❌ | [Colab](https://colab.research.google.com/drive/1O1JjyGaC300BgSJoUbru6LuWAzRzEqCz?usp=sharing)|
 |[Dolly 2.0](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)|Pythia-12B | ✅ | dolly-15k| ❌|❌ |❌ |✅ | [Model](https://huggingface.co/databricks/dolly-v2-12b)<br>[Github](https://github.com/databrickslabs/dolly)|
 |[OpenChatKit](https://www.together.xyz/blog/openchatkit-016)|Pythia 7B<br>GPT-NeoXT-20B | ✅  | [LAION OIG](https://huggingface.co/datasets/laion/OIG)| ❌|❌|✅ |✅ | [Spaces](https://huggingface.co/spaces/togethercomputer/OpenChatKit)<br>[Github](https://github.com/togethercomputer/OpenChatKit)|
+|[Open Assistant](https://open-assistant.io/)|Pythia 12B<br> | ✅  | [OASST1](https://huggingface.co/datasets/OpenAssistant/oasst1)|✅ |❌|❌ |✅ | [Model](https://huggingface.co/OpenAssistant)<br>[Github](https://github.com/LAION-AI/Open-Assistant)|
 |ColossalChat|Llama 7B | ✅  | | ✅|✅  |✅  |❌ | [Demo](https://chat.colossalai.org/)<br>[Github](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat)|
 |[TRL-PEFT](https://huggingface.co/blog/trl-peft)|   | ✅  | | ✅|✅ |✅  ||code only, no model |
 |[DeepSpeed Chat](https://github.com/microsoft/DeepSpeed/tree/master/blogs/deepspeed-chat)|OPT  | ✅  | | ✅|✅ |✅  ||code only, no model |
