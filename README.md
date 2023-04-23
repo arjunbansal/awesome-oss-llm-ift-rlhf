@@ -29,7 +29,7 @@ This is a collection of open source implementations of LLMs with IFT and RLHF th
 |[Dolly+LoRA](https://twitter.com/Sam_Witteveen/status/1639947728762593280)|GPT-J-6B | ✅ | Alpaca (davinci-003) Cleaned| ❌|✅ |❌ |❌ | [Colab](https://colab.research.google.com/drive/1O1JjyGaC300BgSJoUbru6LuWAzRzEqCz?usp=sharing)|
 |ColossalChat|Llama 7B | ✅  | | ✅|✅  |✅  |❌ | [Demo](https://chat.colossalai.org/)<br>[Github](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat)|
 |ChatRMKV|RMKV<br>RNN based   | ✅ | Alpaca| ❌|❌ |✅  |❌|[Spaces](https://huggingface.co/spaces/BlinkDL/ChatRWKV-gradio)<br>[Github](https://github.com/BlinkDL/ChatRWKV)|
-
+|[StableLM](https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models)|StableLM-base| ✅ | Alpaca, GPT4All, Dolly, ShareGPT, and HH| ❌|❌ |❌|❌| [Spaces](https://huggingface.co/spaces/stabilityai/stablelm-tuned-alpha-chat)<br>[Github](https://github.com/stability-AI/stableLM/)|
 
 ## Code only
 
