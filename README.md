@@ -10,6 +10,8 @@ This is a collection of open source implementations of LLMs with IFT and RLHF th
 
 | Name | Base model | IFT | IFT data | RLHF | [LoRA](https://arxiv.org/abs/2106.09685) | Quantization | Commercial Use|Links|
 |------|------------|:--:|----------|:----:|:----:|:-----:|:------:|------|
+|[Falcon](https://falconllm.tii.ae/)|Falcon-40B instruct | ✅ | [Baize](https://github.com/project-baize/baize-chatbot)| ❌|❌ |❌ |✅ | [Model](https://huggingface.co/tiiuae/falcon-40b-instruct)|
+|[MPT](https://www.mosaicml.com/blog/mpt-7b)|MPT-7B instruct | ✅ | dolly-15k<br>Anthropic| ❌|❌ |❌ |✅ | [Spaces](https://huggingface.co/spaces/mosaicml/mpt-7b-instruct)|
 |[Dolly 2.0](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)|Pythia-12B | ✅ | dolly-15k| ❌|❌ |❌ |✅ | [Model](https://huggingface.co/databricks/dolly-v2-12b)<br>[Github](https://github.com/databrickslabs/dolly)|
 |[OpenChatKit](https://www.together.xyz/blog/openchatkit-016)|Pythia 7B<br>GPT-NeoXT-20B | ✅  | [LAION OIG](https://huggingface.co/datasets/laion/OIG)| ❌|❌|✅ |✅ | [Spaces](https://huggingface.co/spaces/togethercomputer/OpenChatKit)<br>[Github](https://github.com/togethercomputer/OpenChatKit)|
 |[Open Assistant](https://www.ykilcher.com/OA_Paper_2023_04_15.pdf)|Pythia 12B<br> | ✅  | [OASST1](https://huggingface.co/datasets/OpenAssistant/oasst1)|✅ |❌|❌ |✅ | [Demo](https://open-assistant.io/)<br>[Model](https://huggingface.co/OpenAssistant)<br>[Github](https://github.com/LAION-AI/Open-Assistant)|
@@ -30,6 +32,8 @@ This is a collection of open source implementations of LLMs with IFT and RLHF th
 |ColossalChat|Llama 7B | ✅  | | ✅|✅  |✅  |❌ | [Demo](https://chat.colossalai.org/)<br>[Github](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat)|
 |ChatRMKV|RMKV<br>RNN based   | ✅ | Alpaca| ❌|❌ |✅  |❌|[Spaces](https://huggingface.co/spaces/BlinkDL/ChatRWKV-gradio)<br>[Github](https://github.com/BlinkDL/ChatRWKV)|
 |[StableLM](https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models)|StableLM-base| ✅ | Alpaca, GPT4All, Dolly, ShareGPT, and HH| ❌|❌ |❌|❌| [Spaces](https://huggingface.co/spaces/stabilityai/stablelm-tuned-alpha-chat)<br>[Github](https://github.com/stability-AI/stableLM/)|
+|[MPT](https://www.mosaicml.com/blog/mpt-7b)|MPT-7B chat | ✅ | [Anthropic](https://huggingface.co/datasets/sam-mosaic/hhrlhf_evol_chatml)<br>[Vicuna](https://huggingface.co/datasets/sam-mosaic/vicuna_alpaca_hc3_chatml)<br>Alpaca<br>HC3<br>Evol-instruct| ❌|❌ |❌ |❌ | [Spaces](https://huggingface.co/spaces/mosaicml/mpt-7b-chat)|
+
 
 ## Code only
 
@@ -41,4 +45,7 @@ This is a collection of open source implementations of LLMs with IFT and RLHF th
 
 ## Benchmarks
 
-Several of the above models are in the process of formal benchmarking using [HELM](https://crfm.stanford.edu/helm/latest/). We'll update this space as these numbers are released.
+The following resources maintain active benchmarks of the above and similar models:
+- [HELM](https://crfm.stanford.edu/helm/latest/)
+- [Huggingface Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+- [LMSys Elo Leaderboard](https://lmsys.org/blog/2023-05-25-leaderboard/)
