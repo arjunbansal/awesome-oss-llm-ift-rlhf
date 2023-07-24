@@ -10,6 +10,7 @@ This is a collection of open source implementations of LLMs with IFT and RLHF th
 
 | Name | Base model | IFT | IFT data | RLHF | [LoRA](https://arxiv.org/abs/2106.09685) | Quantization | Commercial Use|Links|
 |------|------------|:--:|----------|:----:|:----:|:-----:|:------:|------|
+|[Llama-2](https://ai.meta.com/blog/llama-2/)|Llama-2 7B 13B 70B| ✅ |Meta<br>Anthropic<br>OpenAI| ✅|✅ |✅ |✅ | [Model](https://huggingface.co/meta-llama/Llama-2-70b-chat-hf)<br>[Paper](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)|
 |[Falcon](https://falconllm.tii.ae/)|Falcon-40B instruct | ✅ | [Baize](https://github.com/project-baize/baize-chatbot)| ❌|❌ |❌ |✅ | [Model](https://huggingface.co/tiiuae/falcon-40b-instruct)|
 |[MPT](https://www.mosaicml.com/blog/mpt-7b)|MPT-7B instruct | ✅ | dolly-15k<br>Anthropic| ❌|❌ |❌ |✅ | [Spaces](https://huggingface.co/spaces/mosaicml/mpt-7b-instruct)|
 |[Dolly 2.0](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)|Pythia-12B | ✅ | dolly-15k| ❌|❌ |❌ |✅ | [Model](https://huggingface.co/databricks/dolly-v2-12b)<br>[Github](https://github.com/databrickslabs/dolly)|
@@ -33,7 +34,7 @@ This is a collection of open source implementations of LLMs with IFT and RLHF th
 |ChatRMKV|RMKV<br>RNN based   | ✅ | Alpaca| ❌|❌ |✅  |❌|[Spaces](https://huggingface.co/spaces/BlinkDL/ChatRWKV-gradio)<br>[Github](https://github.com/BlinkDL/ChatRWKV)|
 |[StableLM](https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models)|StableLM-base| ✅ | Alpaca, GPT4All, Dolly, ShareGPT, and HH| ❌|❌ |❌|❌| [Spaces](https://huggingface.co/spaces/stabilityai/stablelm-tuned-alpha-chat)<br>[Github](https://github.com/stability-AI/stableLM/)|
 |[MPT](https://www.mosaicml.com/blog/mpt-7b)|MPT-7B chat | ✅ | [Anthropic](https://huggingface.co/datasets/sam-mosaic/hhrlhf_evol_chatml)<br>[Vicuna](https://huggingface.co/datasets/sam-mosaic/vicuna_alpaca_hc3_chatml)<br>Alpaca<br>HC3<br>Evol-instruct| ❌|❌ |❌ |❌ | [Spaces](https://huggingface.co/spaces/mosaicml/mpt-7b-chat)|
-
+|[Free Willy](https://stability.ai/blog/freewilly-large-instruction-fine-tuned-models)|Llama| ✅ |COT, NIV2<br>FLAN'21, T0| ❌|❌ |❌|❌| [Model](https://huggingface.co/stabilityai/FreeWilly2)|
 
 ## Code only
 
@@ -46,6 +47,7 @@ This is a collection of open source implementations of LLMs with IFT and RLHF th
 ## Benchmarks
 
 The following resources maintain active benchmarks of the above and similar models:
-- [HELM](https://crfm.stanford.edu/helm/latest/)
+- [Stanford HELM](https://crfm.stanford.edu/helm/latest/)
 - [Huggingface Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [LMSys Elo Leaderboard](https://lmsys.org/blog/2023-05-25-leaderboard/)
+- [Eleuther AI LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness)
